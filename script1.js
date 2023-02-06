@@ -6,19 +6,17 @@ alert(str);
 let a, b, c,d; // объявляем все 3 переменные
 
 
-a = 'java'.length;
-b = 'script';
-c = 'hello';
-d = ' world';
-alert(a);
-alert(c+d);
+a = undefined;
+alert(a); // выведет undefined
 
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa${str1}bbb${str2}ccc`;
-alert(txt);
+b = null;
+alert(b);
 
-let abc = `f
-g
-k
-`;
+c = true;
+alert(c);
+
+d = false;
+alert(d);
+
+alert( 10 / 0);
+alert(-10 / 0);

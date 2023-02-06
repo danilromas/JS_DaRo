@@ -9,6 +9,8 @@ let num1 = 123;
 let num2 = 456;
 console.log(num1, num2);
 
+const PI = 3.14;
+
 a = undefined;
 alert(a); // выведет undefined
 

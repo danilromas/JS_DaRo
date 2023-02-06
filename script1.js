@@ -5,6 +5,9 @@ alert(str);
 
 let a, b, c,d; // объявляем все 3 переменные
 
+let num1 = 123;
+let num2 = 456;
+console.log(num1, num2);
 
 a = undefined;
 alert(a); // выведет undefined

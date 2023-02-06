@@ -5,14 +5,14 @@ alert(num); //Коментарий строчный
 
 let a, b, c; // объявляем все 3 переменные
 
-a = 1 + 2;
-alert(a);
+a = 10;
+b = 2;
+alert(a+b);
+alert(a-b);
+alert(a*b);
+alert(a/b);
 
-b = 3 - 2;
-alert(b);
-
-c = 3 * 2;
-alert(c);
-
-let d = 1 + 2 + 3;
-alert(d);
+c = 10;
+let d = 5;
+result = c + d;
+alert(result);

@@ -1,13 +1,16 @@
 "use strict";
 let str;
-str = '123';
+str = '!!!';
 alert(str); //Коментарий строчный
 
-let a, b, c; // объявляем все 3 переменные
+let a, b, c,d; // объявляем все 3 переменные
 
-alert(10**3);
 
-a = 13;
-b = 5;
-alert((a+b)**2);
+a = 'java';
+b = 'script';
+c = 'hello';
+d = ' world';
+alert(a+b);
+alert(c+d);
+
 

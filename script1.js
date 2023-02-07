@@ -9,11 +9,8 @@ let num1 = 123;
 let num2 = 456;
 console.log(num1, num2);
 
-alert(String(true));
-alert(String(false));
+let test = Boolean(3);
+alert(test); // true
 
-alert('a' + true);
-
-alert(true + true); // выведет 2
-
-alert(true + false); // 1
+let test2 = Boolean(0);
+alert(test2);// trueee

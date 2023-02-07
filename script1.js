@@ -8,20 +8,11 @@ let a, b, c,d; // объявляем все 3 переменные
 let num1 = 123;
 let num2 = 456;
 console.log(num1, num2);
+alert('2' * '3');
+alert('2' * '3s');
 
-const PI = 3.14;
+let f = '1' + '2';
+alert(f); // выводит двенадцать т.к строки
 
-a = undefined;
-alert(a); // выведет undefined
-
-b = null;
-alert(b);
-
-c = true;
-alert(c);
-
-d = false;
-alert(d);
-
-alert( 10 / 0);
-alert(-10 / 0);
+let g = 1 + '2';
+alert(g) //выведет 12 :/

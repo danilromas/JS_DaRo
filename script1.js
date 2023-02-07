@@ -9,7 +9,11 @@ let num1 = 123;
 let num2 = 456;
 console.log(num1, num2);
 
-let num = 12345;
-alert(String(num).length); // длина будет равна 5
+alert(String(true));
+alert(String(false));
 
-alert(String(num1).length + String(num2).length);
+alert('a' + true);
+
+alert(true + true); // выведет 2
+
+alert(true + false); // 1

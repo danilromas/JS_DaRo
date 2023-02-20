@@ -18,3 +18,10 @@ nums2[0]++;
 nums2[1]++;
 nums2[2]++;
 console.log(nums2);
+
+let nums3 = [];
+
+nums3[0] = 1;
+nums3[1] = 2;
+nums3[2] = 3;
+console.log(nums3);

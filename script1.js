@@ -1,13 +1,18 @@
 "use strict";
 
 
-let a = 47;
-alert(a);
-a += 7;
-alert(a);
-a -= 18;
-alert(a);
-a *= 10;
-alert(a);
-a /= 15;
-alert(a);
+let num = 3;
+alert(--num);
+
+alert(num--);
+
+
+//let num1 = 3;
+//let num2 = ++num1;
+alert(num1);
+alert(num2);
+
+let num1 = 3;
+let num2 = num1++;
+alert(num1);
+alert(num2);

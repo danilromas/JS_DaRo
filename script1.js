@@ -38,3 +38,13 @@ nums4.push('e');
 let nums5 = [1, 2, 3];
 nums5.push(4);
 nums5.push(5);
+
+let nums6 = ['a', 'b', 'c'];
+let key = 2;
+console.log(nums6[key]);
+
+let nums7 = [1, 2, 3, 4, 5];
+let key1 = 1;
+let key2 = 2;
+summ = nums7[key1]+nums7[key1];
+console.log(summ);

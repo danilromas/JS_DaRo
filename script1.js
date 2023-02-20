@@ -54,3 +54,15 @@ delete nums8[1];
 delete nums8[2];
 alert(nums8.length);
 console.log(nums8);
+
+/*let arr = [1, 2, 3, 4, 5];
+console.log(arr[arr.length]); - length - 1 должно быть
+
+let arr = [1, 2, 3, 4, 5];
+console.log(arr[1] + arr[2] + arr[3] + arr[4] + arr[5]); - считает не с 0
+
+let arr = {1, 2, 3, 4, 5};
+console.log(arr.length]); - не квадратные скобки массива
+
+let arr = [1, 2, 3, 4, 5];
+console.log(arr.lenght); - перепутал буквы местами, плюс опять забыл -1 :/ */

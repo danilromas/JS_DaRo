@@ -24,4 +24,7 @@ let nums3 = [];
 nums3[0] = 1;
 nums3[1] = 2;
 nums3[2] = 3;
+nums3[3] = 'a';
+nums3[8] = 'b';
+alert(nums3.length);
 console.log(nums3);

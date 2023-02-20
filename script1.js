@@ -28,3 +28,13 @@ nums3[3] = 'a';
 nums3[8] = 'b';
 alert(nums3.length);
 console.log(nums3);
+
+letnums4 = ['a','b']
+nums4.push('c');
+nums4.push('d');
+nums4.push('e');
+
+
+let nums5 = [1, 2, 3];
+nums5.push(4);
+nums5.push(5);

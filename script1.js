@@ -48,3 +48,9 @@ let key1 = 1;
 let key2 = 2;
 summ = nums7[key1]+nums7[key1];
 console.log(summ);
+
+let nums8 = ['a', 'b', 'c', 'd', 'e'];
+delete nums8[1];
+delete nums8[2];
+alert(nums8.length);
+console.log(nums8);

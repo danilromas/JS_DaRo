@@ -1,11 +1,8 @@
 "use strict";
 
-let obj = {
-    a: 1, 
-    b: 2, 
-    c: 3};
+let obj = {};
 
-obj.a **= 2;
-obj.b += 2;
-obj.c *= 2;
+obj.a = 3;
+obj.b = 2;
+obj.c = 1;
 console.log(obj)

@@ -1,10 +1,17 @@
 "use strict";
 
 
-document.write('<b>ПРОВЕРКА</b> <br>');
-document.write('<i>ПРОВЕРКА КУРСИВОМ</i> <br>');
-let str = '01203911940ASDASD23049120';
+let num = 123;
+let str = String(num);
+console.log(str[str.length-1]);
 
-document.write('1 <br> 2 <br> 3 <br> 4 <br> 5 <br> ');
+let a = '123';
+let b = '456';
+let s = Number(a) + Number(b);
 
-document.write('<i>' + str + '</i> <br>');
+console.log(s);
+
+let aa = 1;
+let bb = 2;
+let cc = 3;
+console.log(aa + bb + сс);

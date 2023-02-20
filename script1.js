@@ -12,3 +12,7 @@ alert(numss[0]);
 alert(numss[1]);
 alert(numss[2]);
 alert(numss[0]+numss[1]+numss[2]);
+
+let len = ['a', 'b', 'c', 2, 5, 3, true];
+alert(len.length)
+alert(len[len.length - 1])

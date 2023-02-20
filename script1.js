@@ -1,18 +1,8 @@
 "use strict";
 
 
-let num = 3;
-alert(--num);
+alert(0.1 * 0.2);
+alert(0.3 - 0.1);
 
-alert(num--);
-
-
-//let num1 = 3;
-//let num2 = ++num1;
-alert(num1);
-alert(num2);
-
-let num1 = 3;
-let num2 = num1++;
-alert(num1);
-alert(num2);
+alert((0.1 * 0.2).toFixed(2));
+0.02

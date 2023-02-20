@@ -1,10 +1,6 @@
 "use strict";
 
-const arr = ['a', 'b', 'c'];
-arr = [1, 2, 3];
-console.log(arr);
-//еrrоr
+const arr = [1, 2, 3, 4, 5];
+const res = arr[1] + arr[2];
 
-const arr1 = ['a', 'b', 'c'];
-arr1 = ['a', 'b', 'c'];
-console.log(arr1);
+console.log(res);

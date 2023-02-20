@@ -1,13 +1,10 @@
 "use strict";
 
-let nums1 = [1, 2, 3];
-let nums2 = nums1;
+const arr = ['a', 'b', 'c'];
+arr = [1, 2, 3];
+console.log(arr);
+//еrrоr
 
-nums1[0] = 'a';
-console.log(nums2);
-
-let nums3 = [1, 2, 3];
-let nums4 = nums3;
-nums3[0] = 'a';
-nums4[1] = 'b';
-console.log(nums3);
+const arr1 = ['a', 'b', 'c'];
+arr1 = ['a', 'b', 'c'];
+console.log(arr1);

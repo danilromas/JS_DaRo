@@ -1,18 +1,20 @@
 "use strict";
 
-let nums = [1, 2, 3];
-alert(nums);
+let nums = ['a', 'b', 'c'];
+
+nums[0] = '1';
+nums[1] = nums[0];
+nums[2] = '-3';
 console.log(nums);
-let strs = ['a', 'b', 'c'];
-alert(strs);
-console.log(strs);
 
-let numss = [1,2,3];
-alert(numss[0]);
-alert(numss[1]);
-alert(numss[2]);
-alert(numss[0]+numss[1]+numss[2]);
+let nums1 = [1, 2, 3];
+nums1[0] += 1;
+nums1[1] += 1 + nums[0];
+nums1[2] += 1 + nums[2];
+console.log(nums1);
 
-let len = ['a', 'b', 'c', 2, 5, 3, true];
-alert(len.length)
-alert(len[len.length - 1])
+let nums2 = [1, 2, 3];
+nums2[0]++;
+nums2[1]++;
+nums2[2]++;
+console.log(nums2);

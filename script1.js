@@ -1,8 +1,7 @@
 "use strict";
 
-let obj = {};
+let obj = {30: 'cсс', 10: 'aAA', 20: 'bbb'};
 
-obj.a = 3;
-obj.b = 2;
-obj.c = 1;
-console.log(obj)
+console.log(obj[30]);
+console.log(obj[20]);
+console.log(obj[10]);

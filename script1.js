@@ -1,11 +1,15 @@
 "use strict";
-let num = 1;
-let res;
+let a = 2 * (3 - 1);
+let b = 6 - 2;
 
-if (num >= 0) {
-	res = '1';
-} else {
-	res = '2';
-}
+console.log(a == b);
 
-console.log(res);
+let a1 = 5 * (7 - 4);
+let b1 = 1 + 2 + 7;
+
+console.log(a1 > b1);
+
+let a2 = 2 ** 4;
+let b2 = 4 ** 2;
+
+console.log(a2 != b2);

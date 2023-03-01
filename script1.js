@@ -1,17 +1,13 @@
 "use strict";
 let num = 1;
+let res;
 
-switch (num) {
-	case 1:
-		console.log('value1');
-	break;
-	case 2:
-		console.log('value2');
-	break;
-	case 3:
-		console.log('value3');
-	break;
-	default:
-		console.log('incorrect value');
-	break;
+if (num == 1 || num == 2) {
+	res = 'a';
 }
+
+if (num == 3) {
+	res = 'b';
+}
+
+console.log(res);

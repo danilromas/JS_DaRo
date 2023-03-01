@@ -1,7 +1,7 @@
 "use strict";
 
-let test1 = 'abc';
-let test2 = 'abc';
+let test1 = 123;
+let test2 = '123';
 
 if (test1 == test2) {
 	console.log('+++'); // сработает это

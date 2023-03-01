@@ -1,18 +1,9 @@
 "use strict";
 
-let test = 10;
+let test1 = 'abc';
+let test2 = 'abc';
 
-
-let test1 = 1;
-let test2 = 2;
-
-if (test2 > test1) {
-	console.log(test2); // сработает это
-} else {
-	console.log(test1);
-}
-
-if (test2 == test1) {
+if (test1 == test2) {
 	console.log('+++'); // сработает это
 } else {
 	console.log('---');

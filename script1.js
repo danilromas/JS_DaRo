@@ -1,10 +1,13 @@
 "use strict";
-let num1;
-num1 = 3;
-if (!(num1 >= 0 || num2 <= 10)) {
+let test = true;
+if (test === true) {
 	console.log('+++');
 } else {
 	console.log('---');
 }
 
-
+if (test === false) {
+	console.log('+++');
+} else {
+	console.log('---');
+}

@@ -1,9 +1,24 @@
 "use strict";
-let test = 3;
+let test = 6;
 
-if (test > 0) {
-	console.log('+++');
-} else console.log('---');
-
-if (test > 0) 
-console.log('+++');
+if (num <=9 && num >=1) 
+	if (num == 1) {
+		console.log('1');
+	} else if (num == 2) {
+		console.log('1');
+	} else if (num == 3) {
+		console.log('1');
+	} else if (num == 4) {
+		console.log('1');
+	} else if (num == 5) {
+		console.log('1');
+	} else if (num == 6) {
+		console.log('1');
+	} else if (num == 7) {
+		console.log('1');
+	} else if (num == 8) {
+		console.log('1');
+	} else if (num == 9) {
+		console.log('1');
+    }
+else console.log('неверное значение переменной num');

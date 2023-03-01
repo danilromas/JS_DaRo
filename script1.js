@@ -1,6 +1,17 @@
 "use strict";
 
-const arr = [1, 2, 3, 4, 5];
-const res = arr[1] + arr[2];
+let obj = {x: 1, y: 2, z: 3};
+console.log(obj);
 
-console.log(res);
+let obj1 = {x: 1, y: 2, z: 3};
+let key = 'z';
+
+console.log(obj1.key);
+
+let obj2 = {x: 1, y: 2, z: 3};
+let sum = obj[x] + obj[y] + obj[z];
+
+console.log(obj2);
+
+let obj3 = {x: 1, y: 2, z: 3};
+console.log(length.obj3);

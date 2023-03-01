@@ -2,12 +2,10 @@
 let num = 1;
 let res;
 
-if (num == 1 || num == 2) {
-	res = 'a';
-}
-
-if (num == 3) {
-	res = 'b';
+if (num >= 0) {
+	res = '1';
+} else {
+	res = '2';
 }
 
 console.log(res);

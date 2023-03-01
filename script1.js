@@ -1,16 +1,8 @@
 "use strict";
-let num = 3;
+let num1 = 0;
+let num2 = 0;
 
-if (num > 0 && num < 10) {
-	console.log('+++');
-} else {
-	console.log('---');
-}
-
-let num1 = 2;
-let num2 = 3;
-
-if (num1 == 2 && num2 == 3) {
+if (num1 >= 0 || num2 >= 0) {
 	console.log('+++');
 } else {
 	console.log('---');

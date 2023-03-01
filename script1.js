@@ -1,12 +1,17 @@
 "use strict";
-let num = 3;
+let num = 1;
 
-if (num >= 0) {
-	if (num <= 5) {
-		console.log('меньше или равно 5');
-	} else {
-		console.log('больше 5');
-	}
-} else {
-	console.log('меньше нуля');
+switch (num) {
+	case 1:
+		console.log('value1');
+	break;
+	case 2:
+		console.log('value2');
+	break;
+	case 3:
+		console.log('value3');
+	break;
+	default:
+		console.log('incorrect value');
+	break;
 }

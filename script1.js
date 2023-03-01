@@ -6,3 +6,5 @@ if (!(num1 >= 0 || num2 <= 10)) {
 } else {
 	console.log('---');
 }
+
+

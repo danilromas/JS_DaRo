@@ -1,39 +1,9 @@
 "use strict";
-let test = 1;
 
-if (test == false) {
+let test = true;
+
+if (test) {
 	console.log('+++');
 } else {
-	console.log('');
-}
-
-let test = 1;
-
-if (test != true) {
-	console.log('+++');
-} else {
-	console.log('');
-}
-
-let test = '';
-
-if (test == false) {
-	console.log('+++');
-} else {
-	console.log('');
-}
-
-let test;
-
-if (test == true) {
-	console.log('+++');
-} else {
-	console.log('');
-}
-let test = 3 * 'a';
-
-if (test == true) {
-	console.log('+++');
-} else {
-	console.log('');
+	console.log('---');
 }

@@ -1,16 +1,5 @@
 "use strict";
-function cube(a) {
-   console.log(Math.pow(a, 3));
-}
-
-cube(5);
-
-function negative(b) {
-   if (b >= 0) {
-      console.log('+++')
-   } else {
-      console.log('---')
-   }
-}
-
-negative(-12);
+function three(a, b, c) {
+	return console.log(a + b + c);
+  }
+  three(2, 2, 2);

@@ -8,3 +8,11 @@ for (let i = 1; i <= 20; i++) {
 }
 
 console.log(res)
+
+
+let arr = [2, 5, 9, 3, 1, 4];
+
+for (let i = 0; i <= arr.length - 1; i++) {
+   res4 = res4 * arr[i] 
+};
+console.log(res4)

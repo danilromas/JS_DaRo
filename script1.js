@@ -1,7 +1,13 @@
 "use strict";
-let arr = [1, 2, 3, 4, 5];
+let obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
+let newObj = {};
 
-for (let item in arr) {
-   arr[item] += 10
+for (let key in obj) {
+
+   let newKey = obj[key];
+   let newValue = key;
+   newObj[newKey] = newValue;
 };
 console.log(arr)
+console.log(obj);
+console.log(newObj);

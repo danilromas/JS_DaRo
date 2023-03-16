@@ -1,21 +1,13 @@
 "use strict";
-function isPositive(arr) {
-	let flag = true;
-	
-	for (let elem of arr) {
-		if (elem < 0) {
-			flag = false;
-		}
-	}
-	
-	return flag;
+function func(a, b) {
+	return a == b
 }
-function isPositive(arr) {
-	for (let elem of arr) {
-		if (elem < 0) {
-			return false;
-		}
-	}
-	
-	return true;
+function func(a, b) {
+	return a != b
+}
+function func(a, b) {
+	return a + b >=10
+}
+function func(num) {
+	return a >= 0 
 }

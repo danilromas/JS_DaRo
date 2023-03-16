@@ -1,29 +1,24 @@
 "use strict";
-function func(num) {
-	return num;
+function func() {
+	let sum = 0;
 	
-	let res = num ** 2;
-	return res;
+	for (let i = 1; i <= 5; i++) {
+		sum += i;
+	}
+	
+	return sum;
 }
 
-console.log( func(3) );
-function func(num) {
-	if (num <= 0) {
-		return Math.abs(num);
-	} else {
-		return num ** 2;
+let res = func();
+console.log(res);
+function func() {
+	let sum = 0;
+	
+	for (let i = 1; i <= 5; i++) {
+		sum += i;
+		return sum;
 	}
 }
 
-console.log( func(10) );
-console.log( func(-5) );
-function func(num) {
-	if (num <= 0) {
-		return Math.abs(num);
-	}
-	
-	return num ** 2;
-}
-
-console.log( func(10) );
-console.log( func(-5) );
+let res = func();
+console.log(res);

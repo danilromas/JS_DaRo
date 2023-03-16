@@ -1,7 +1,10 @@
 "use strict";
-let res = 0;
+let arr = [10, 20, 30, 40, 21, 32, 51];
 
-for (let i = 1; i <= arr.length; i++) {
-    res = arr[i - 1] + arr[i] + arr[i + 1];
-    console.log(res)
+for (let i of arr) {
+   if (String(i)[0] == '1' || String(i)[0] == '2') {
+      console.log(i);
+   } else {
+      continue;
+   };
 };

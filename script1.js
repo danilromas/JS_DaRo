@@ -1,33 +1,26 @@
 "use strict";
-let lang = 'ru'; // может быть или 'ru' или 'en'
-let month = 5;   // число от 0 до 11
-let months = {
-	'ru': [
-	   'январь',
-	   'февраль',
-	   'март',
-	   'апрель',
-	   'май',
-	   'июнь',
-	   'июль',
-	   'август',
-	   'сентябрь',
-	   'октябрь',
-	   'ноябрь',
-	   'декабрь',
-	],
-	'en': [
-	   'january',
-	   'february',
-	   'march',
-	   'april',
-	   'may',
-	   'june',
-	   'july',
-	   'august',
-	   'september',
-	   'october',
-	   'november',
-	   'december',
-	],
-  };
+let employees = [
+	{
+	   name: 'name1',
+	   salary: 300,
+	   age: 28,
+	},
+	{
+	   name: 'name2',
+	   salary: 400,
+	   age: 29,
+	},
+	{
+	   name: 'name3',
+	   salary: 500,
+	   age: 30,
+	},
+  ];
+  employees.push(
+	{
+	   name: 'name4',
+	   salary: 600,
+	   age: 31,
+	}
+  );
+  console.log(employees);

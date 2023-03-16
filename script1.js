@@ -1,12 +1,14 @@
 "use strict";
-let arr = [1, 2, 3];
-arr.push(4, 5, 6);
+let str = 'word1 word2 word3';
 
-console.log(arr);
-let arr = [1, 2, 3];
-arr.unshift(4, 5, 6);
-console.log(arr);	
-let arr = [1, 2, 3];
-console.log(arr.shift());
-let arr = [1, 2, 3];
-console.log(arr.pop());
+console.log(str)
+
+let word = str.split(' ');
+
+for (let i = 0; i <= word.length - 1; i++) {
+   word[i] = word[i].slice(0, 1).toUpperCase() + word[i].slice(1);
+};
+
+str = word.join(' ');
+
+console.log(str)

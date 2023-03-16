@@ -1,12 +1,22 @@
 "use strict";
-let ok = confirm('Сколько вам лет?');
-let adult
+
+let res = 1;
+
+if (true) {
+	let res = 2;
+	console.log(res); // выведет 2
+}
+
+console.log(res); // выведет 1
 
 
-if (ok>18) {
-	adult = true;
+let age = 17;
+let adult;
+
+if (age >= 18) {
+	let adult = true;
 } else {
-	adult = true;
+	let adult = false;
 }
 
 console.log(adult);

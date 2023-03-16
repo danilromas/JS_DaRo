@@ -1,7 +1,18 @@
 "use strict";
-function calcCube(x) {
-	return Math.pow(x, 3)
-  };
-  let res = calcCube(3);
+function sqrt(num) {
+	return Math.sqrt(num);
+}
 
-console.log(res)
+function round(num) {
+	return num.toFixed(3);
+}
+function sqrt(num) {
+	return Math.sqrt(num);
+}
+
+function sum(num1, num2, num3) {
+	return num1 + num2 + num3;
+}
+function round(num) {
+	return num.toFixed(3);
+}

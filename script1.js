@@ -1,39 +1,33 @@
 "use strict";
-let employees = [
-   {
-      name: 'name1',
-      salary: 300,
-   },
-   {
-      name: 'name2',
-      salary: 400,
-   },
-   {
-      name: 'name3',
-      salary: 500,
-   },
-];
-for (let item of employees) {
-   console.log(item.name + ' ' + '-' + ' ' + item.salary)
-}
-let employees2 = [
-   {
-      name: 'name1',
-      salary: 300,
-   },
-   {
-      name: 'name2',
-      salary: 400,
-   },
-   {
-      name: 'name3',
-      salary: 500,
-   },
-];
-let sum = 0;
-
-for (let item of employees) {
-   sum += item.salary;
-};
-
-console.log(sum)
+let lang = 'ru'; // может быть или 'ru' или 'en'
+let month = 5;   // число от 0 до 11
+let months = {
+	'ru': [
+	   'январь',
+	   'февраль',
+	   'март',
+	   'апрель',
+	   'май',
+	   'июнь',
+	   'июль',
+	   'август',
+	   'сентябрь',
+	   'октябрь',
+	   'ноябрь',
+	   'декабрь',
+	],
+	'en': [
+	   'january',
+	   'february',
+	   'march',
+	   'april',
+	   'may',
+	   'june',
+	   'july',
+	   'august',
+	   'september',
+	   'october',
+	   'november',
+	   'december',
+	],
+  };

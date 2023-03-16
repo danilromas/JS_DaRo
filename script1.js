@@ -1,15 +1,12 @@
 "use strict";
 
-let min = 10;
+let str = '123';
+let a,b,c
 
-if (min >= 0 && min <= 19) {
-	console.log('1 треть');
-}
+if (str.length == 3) {
+	a = str % 10 
+	b = str % 10
+	c = str % 10
+	console.log(a+b+c)
 
-if (min >= 20 && min <= 39) {
-	console.log('2 треть');
-}
-
-if (min >= 40 && min <= 60) {
-	console.log('3 треть');
 }

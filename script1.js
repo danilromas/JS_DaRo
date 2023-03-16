@@ -1,13 +1,21 @@
 "use strict";
-let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
-let count = 0;
+let str = 'hello world!!';
+let arr = str.split('') 
+let count = {};         
+let result = 0 
 
-for (let i of arr) {
-   if (i == 3 || i == 2) {
-      count += 1
+for (let item of arr) {
+   if (count[item] === undefined) {
+      count[item] = 1;
    } 
    else {
-	continue;
-   };
+	count[item]++;
+}
+}
+
+for (let item in count) {
+if(count[item] > 1) {
+   result += count[item]
+	};
 };
-console.log(count);
+console.log(result);

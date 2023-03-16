@@ -1,12 +1,26 @@
 "use strict";
-let num15 = '123033';
-let sum1 = Number(num15[0]) + Number(num15[1]) + Number(num15[2]);
-let sum2 = Number(num15[3]) + Number(num15[4]) + Number(num15[5]);
 
-   if (sum1 == sum2) {
-      console.log('суммы равны');
-   } else {
-	console.log('суммы не равны');
-   }
+for (let i = 11; i <= 33; i++) {
+	console.log(i)
+ }
 
-console.log('Циклы')
+ for (let i = 1; i <= 100; i++) {
+	if (i % 2 == 0) {
+	   console.log(i)
+	}
+ }
+
+ for (let i = 1; i <= 99; i++) {
+	if (i % 2 != 0) {
+	   console.log(i)
+	}
+ }
+
+
+ for (let i = 100; ; --i) {
+	if (k == 0) {
+	   console.log(k)
+	   break;
+	}
+}
+	console.log(i)

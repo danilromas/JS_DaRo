@@ -1,6 +1,8 @@
 "use strict";
 
-let obj = { x: 1, y: 2, z: 3 };
-   for (let key in obj) {
-      console.log(obj[key]);
-   }
+let a = 1000
+while (a <= 0) {
+	a = a - 7;
+	console.log(a);
+ }
+ 

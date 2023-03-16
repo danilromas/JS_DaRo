@@ -1,12 +1,13 @@
 "use strict";
-let obj = { a: 10, b: 20, c: 30, d: 40, e: 50 };
-let sum = 0;
-for (let elem in obj) {
-	if (obj[elem] == 10 || obj[elem] == 20) {
-	   sum += obj[elem];
-	} else {
-	   continue;
-	};
-};
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let newArr = []
 
-console.log(sum);
+for (let elem of arr13) {
+   if (elem % 2 != 0) {
+      newArr.push(elem);
+   } else {
+      continue;
+	}
+}
+
+console.log(newArr);

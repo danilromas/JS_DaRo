@@ -1,8 +1,12 @@
 "use strict";
 let ok = confirm('Сколько вам лет?');
+let adult
+
 
 if (ok>18) {
-	console.log('))))');
+	adult = true;
 } else {
-	console.log('малой');
+	adult = true;
 }
+
+console.log(adult);

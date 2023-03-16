@@ -1,12 +1,25 @@
 "use strict";
 
-let str = '123';
-let a,b,c
+let string = 'dsdqwdqwd';
 
-if (str.length == 3) {
-	a = str % 10 
-	b = str % 10
-	c = str % 10
-	console.log(a+b+c)
+if (string[0] == 'D' || string[0] == 'd') {
+   console.log('da');
+} else {
+   console.log('net');
+}
 
+let string1 = '2dfasdfa43afe3';
+
+if (string1[string1.length - 1] == '3' || string1[string1.length - 1] == '3') {
+   console.log('da');
+} else {
+   console.log('net');
+}
+
+let string2 = 'tfsdfaw4fa4';
+
+if (string2[0] == 't' || string2[0] == 'f') {
+   console.log('da');
+} else {
+   console.log('net');
 }

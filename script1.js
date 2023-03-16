@@ -8,3 +8,5 @@ let sum2 = Number(num15[3]) + Number(num15[4]) + Number(num15[5]);
    } else {
 	console.log('суммы не равны');
    }
+
+console.log('Циклы')

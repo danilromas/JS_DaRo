@@ -1,22 +1,15 @@
 "use strict";
 
-let res = 1;
+let min = 10;
 
-if (true) {
-	let res = 2;
-	console.log(res); // выведет 2
+if (min >= 0 && min <= 19) {
+	console.log('1 треть');
 }
 
-console.log(res); // выведет 1
-
-
-let age = 17;
-let adult;
-
-if (age >= 18) {
-	let adult = true;
-} else {
-	let adult = false;
+if (min >= 20 && min <= 39) {
+	console.log('2 треть');
 }
 
-console.log(adult);
+if (min >= 40 && min <= 60) {
+	console.log('3 треть');
+}

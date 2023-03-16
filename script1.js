@@ -1,21 +1,13 @@
 "use strict";
-let num = 4;
-let flag = true;
-let i = 2;
+let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
+let count = 0;
 
-while (i < num) {
-   if (num % i == 0) {
-      flag = !flag;
-      break;
-	} 
-	else {
-		i += 1;
-	 };
-  };
-
-if (flag) {
-	console.log(` ${num} простое`)
- } 
-else {
-	console.log(` ${num}не простое`)
- }
+for (let i of arr) {
+   if (i == 3 || i == 2) {
+      count += 1
+   } 
+   else {
+	continue;
+   };
+};
+console.log(count);

@@ -1,18 +1,29 @@
 "use strict";
-function sqrt(num) {
-	return Math.sqrt(num);
+function func(num) {
+	return num;
+	
+	let res = num ** 2;
+	return res;
 }
 
-function round(num) {
-	return num.toFixed(3);
-}
-function sqrt(num) {
-	return Math.sqrt(num);
+console.log( func(3) );
+function func(num) {
+	if (num <= 0) {
+		return Math.abs(num);
+	} else {
+		return num ** 2;
+	}
 }
 
-function sum(num1, num2, num3) {
-	return num1 + num2 + num3;
+console.log( func(10) );
+console.log( func(-5) );
+function func(num) {
+	if (num <= 0) {
+		return Math.abs(num);
+	}
+	
+	return num ** 2;
 }
-function round(num) {
-	return num.toFixed(3);
-}
+
+console.log( func(10) );
+console.log( func(-5) );

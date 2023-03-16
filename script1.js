@@ -1,51 +1,24 @@
 "use strict";
-console.log(Math.pow(2, 10));
-console.log(Math.sqrt(245));
-let arr = [4, 2, 5, 19, 13, 0, 10];
-let result = 0;
-for (let item of arr) {
-   result += (Math.pow(item, 3));
-}
-console.log(Math.sqrt(result));
-let num = 245;
-let result = Math.round(Math.sqrt(num));
-console.log(result
-  );
-let result = Math.sqrt(num);
-console.log(result.toPrecision(3));
+let str = 'asd';
 
-let result = Math.sqrt(num);
-console.log(result.toPrecision(4));
-
-let num1 = 587;
-let obj = {
-   floor: null,
-   ceil: null,
-}
-let result = Math.sqrt(num)
-obj.floor = Math.floor(result);
-let result = Math.sqrt(num);
-obj.ceil = Math.ceil(result);
-
-console.log(obj)
-
-console.log(Math.max(4, -2, 5, 19, -130, 0, 10));
-console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+console.log(str.toUpperCase());
 
 
-function getRandomInt(min, max) {
-   return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+let str = 'ФЫВ';
 
-console.log(getRandomInt(1, 100))
+console.log(str.toLowerCase());
 
-let newArr = [];
 
-for (let i = 1; i <= 10; i++) {
-   newArr.push(getRandomInt(1, 1000));
-};
+let str = 'asdasfasdwadasfw!';
 
-console.log(newArr)
-let a = -12, b = -6;
+let a = str.substr(2, 3);
+let a = str.substr(6, 10);
+console.log(a, a);
 
-console.log(Math.abs(a - b));
+let b = str.substring(2, 5);
+let b = str.substring(6, 16);
+console.log(b, b);
+
+let c = str.slice(2, 5);
+let c = str.slice(6, 16);
+console.log(c, c);

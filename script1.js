@@ -1,7 +1,21 @@
 "use strict";
-let obj = {x: 1, y: 2, z: 3};
+let num = 4;
+let flag = true;
+let i = 2;
 
-for (let key in obj) {
-	obj[key] += 1
-};
-console.log(obj)
+while (i < num) {
+   if (num % i == 0) {
+      flag = !flag;
+      break;
+	} 
+	else {
+		i += 1;
+	 };
+  };
+
+if (flag) {
+	console.log(` ${num} простое`)
+ } 
+else {
+	console.log(` ${num}не простое`)
+ }

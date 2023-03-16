@@ -1,8 +1,7 @@
 "use strict";
 
-let a = 1000
-while (a <= 0) {
-	a = a - 7;
-	console.log(a);
- }
- 
+let arr = ['a', 'b', 'c', 'd', 'e'];
+
+for (let i = 0; i <= arr.length - 1; i++) {
+   console.log(arr[i]);
+}

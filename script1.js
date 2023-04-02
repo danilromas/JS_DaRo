@@ -1,30 +1,54 @@
 "use strict";
-function sum(arr) { // деление тут не нужно
+function func1() {
+	res1 = 3;
+}
+function func2() {
+	res2 = 5;
+}
+
+console.log( func1() + func2() );
+
+function sum(arr) {
+	let res = 0;
+	
+	for (let elem of arr) {
+		res += elem;
+		return res;
+	}
+}
+
+console.log(res);
+
+let arr = [1, 2, 3, 4, 5];
+
+function func(arr) {
 	let res = 0;
 	
 	for (let elem of arr) {
 		res += elem;
 	}
-	
-	return res;
+}
+console.log(res);
+
+function func1() {
+	return 3;
+}
+function func2() {
+	return 5;
 }
 
-function func(arr1, arr2) { // можно сделать всё одним циклом for, да и смысла код не имеет, в любом случае выведет 1
-	let res1 = 0;
-	let res2 = 0;
+console.log( func1() + func2() );
+
+let sum = sum([1, 2, 3, 4, 5]);
+
+function sum(arr) {
+	let sum = 0;
 	
 	for (let elem of arr) {
-		res1 += elem;
-		res2 += elem;
+		sum += elem;
 	}
-	return res1 / res2;
+	
+	return sum;
 }
 
-function getSum(arr) { // код выведет в любом случае 0, поэтому нужно вписать в res 1
-	let res = 1;
-	for (let elem of arr) {
-		res *= elem;
-	}
-	
-	return res;
-}
+console.log(sum);
